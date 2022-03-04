@@ -8,6 +8,7 @@ body{
 }
 
 #startBtn{
+font-weight: bold;
 color: white;
 border-radius: 10%;
 width: 80px;
