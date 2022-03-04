@@ -8,8 +8,9 @@ body{
 }
 
 @media only screen and (max-width: 600px) {
-  #result, #pWeapon, #cWeapon {
-    font-size: 12px;
+  #pWeapon, #cWeapon {
+    display: flex;
+    flex-direction: column;
   }
 
 #startBtn{
