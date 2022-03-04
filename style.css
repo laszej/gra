@@ -7,6 +7,11 @@ body{
     text-align: center;
 }
 
+@media only screen and (max-width: 600px) {
+  #result, #pWeapon, #cWeapon {
+    font-size: 12px;
+  }
+
 #startBtn{
 font-weight: bold;
 color: white;
