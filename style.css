@@ -1,0 +1,55 @@
+body{
+    background: linear-gradient(to right, red, green, blue);
+    color:white;
+}
+
+#header{
+    text-align: center;
+}
+
+#start{display:flex;
+flex-direction: row;
+justify-content:center;
+}
+
+#select{color: white;
+    border-radius: 10%;
+    width: 100px;
+    height: 40px;
+    background: blue;
+    padding: 10px;
+    border: none; 
+    margin-top: 10px;
+    margin-right: 10px; }
+
+#startBtn{
+color: white;
+border-radius: 10%;
+width: 80px;
+height: 40px;
+background: blue;
+padding: 10px;
+border: none; 
+margin-top: 10px;   
+}
+
+#game{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#result{
+font-size: 24px;
+text-align: center;    
+}
+
+#pWeapon, #cWeapon{
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+    #game {
+      display: flex;
+      flex-direction: column;
+    }
+}
