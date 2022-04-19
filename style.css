@@ -66,7 +66,6 @@ text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
-    body{font-family: 'Ubuntu', sans-serif;}
     #game {
       display: flex;
       flex-direction: column;
